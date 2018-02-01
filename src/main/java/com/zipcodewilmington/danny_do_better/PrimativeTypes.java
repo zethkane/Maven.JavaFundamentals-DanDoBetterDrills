@@ -1,4 +1,4 @@
-package PrimativeTypes;
+package com.zipcodewilmington.danny_do_better;
 
 /**
  * Created by dan on 6/14/17.

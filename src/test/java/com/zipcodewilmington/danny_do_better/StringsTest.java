@@ -1,5 +1,6 @@
-package Strings;
+package com.zipcodewilmington.danny_do_better;
 
+import com.zipcodewilmington.danny_do_better.Strings;
 import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;
