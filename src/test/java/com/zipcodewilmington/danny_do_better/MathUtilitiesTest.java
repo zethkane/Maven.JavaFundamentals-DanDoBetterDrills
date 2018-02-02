@@ -7,58 +7,120 @@ import static org.junit.Assert.*;
  * Created by dan on 6/14/17.
  */
 public class MathUtilitiesTest {
-
-
-    MathUtilities math;
-
-    @Before public void initialize(){
-        math = new MathUtilities();
-    }
+    private static volatile MathUtilities math = new MathUtilities();
 
     @Test
-    public void testRemainder(){
+    public void testRemainder1(){
+        // : Given
         Integer dividend = 7;
         Integer divisor = 3;
         Integer expected = 1;
 
-        Integer actual = this.math.remainder(dividend, divisor);
+        // : When
+        Integer actual = math.remainder(dividend, divisor);
 
-        assertTrue(expected == actual);
+        // : Then
+        assertEquals(expected, actual);
+    }
+
+
+    @Test
+    public void testRemainder2(){
+        // : Given
+        Integer dividend = 8;
+        Integer divisor = 3;
+        Integer expected = 2;
+
+        // : When
+        Integer actual = math.remainder(dividend, divisor);
+
+        // : Then
+        assertEquals(expected, actual);
     }
 
     @Test
-    public void testGreaterThan(){
-        assertTrue(this.math.isGreaterThan(456,23));
+    public void testGreaterThanTrue(){
+        // : Given
+        int greaterValue = 450;
+        int lesserValue = 350;
+
+
+        // : When
+        boolean outcome = math.isGreaterThan(greaterValue, lesserValue);
+
+        // : Then
+        assertTrue(outcome);
     }
 
+
     @Test
-    public void testLessThan(){
-        assertTrue(this.math.isLessThan(1 ,3));
+    public void testGreaterThanFalse(){
+        // : Given
+        int greaterValue = 350;
+        int lesserValue = 350;
+
+        // : When
+        boolean outcome = math.isGreaterThan(greaterValue, lesserValue);
+
+        // : Then
+        assertTrue(outcome);
     }
+
+
+    @Test
+    public void testLessThanTrue(){
+        // : Given
+        int greaterValue = 450;
+        int lesserValue = 350;
+
+
+        // : When
+        boolean outcome = math.isLessThan(greaterValue, lesserValue);
+
+        // : Then
+        assertFalse(outcome);
+    }
+
+
+
+    @Test
+    public void testLessThan1(){
+        // : Given
+        int greaterValue = 450;
+        int lesserValue = 350;
+
+
+        // : When
+        boolean outcome = math.isLessThan(greaterValue, lesserValue);
+
+        // : Then
+        assertTrue(outcome);
+    }
+
 
     @Test
     public void testLessOrEqual(){
-        assertTrue(this.math.isLessThanOrEqualTo(3 , 3));
-        assertTrue(this.math.isLessThanOrEqualTo(3, 6));
+        assertTrue(math.isLessThanOrEqualTo(3 , 3));
+        assertTrue(math.isLessThanOrEqualTo(3, 6));
     }
 
     @Test
     public void testGreaterOrEqual(){
-        assertTrue(this.math.isGreaterThanOrEqualTo(4, 4));
-        assertTrue(this.math.isGreaterThanOrEqualTo(78, 5));
+        assertTrue(math.isGreaterThanOrEqualTo(4, 4));
+        assertTrue(math.isGreaterThanOrEqualTo(78, 5));
     }
 
     @Test
     public void testLogicalAnd(){
-        assertTrue(this.math.isBoth(3));
-        assertFalse(this.math.isBoth(4));
+        assertTrue(math.isBoth(3));
+        assertFalse(math.isBoth(4));
     }
 
     @Test
     public void testLogicalOr(){
-        assertTrue(this.math.logicalOr(4));
-        assertTrue(this.math.logicalOr(14564));
-        assertFalse(this.math.logicalOr(54));
+        assertTrue(math.logicalOr(4));
+        assertTrue(math.logicalOr(14564));
+        assertFalse(math.logicalOr(54));
     }
 
 
