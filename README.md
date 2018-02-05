@@ -20,6 +20,7 @@
     * Complete each of the method stubs in the `main` classes provided.
         * `main` classes are located in `src.main.java.com.zipcodewilmington.danny_do_better_exercises`
     * There are comments above each method stub to describe the expected behavior.
+    * Begin by first ensuring the `main` method in your `ZipcodeRocks` class prints `"Zipcode Rocks!"` upon execution.  
     * Upon completion, open and run the `TestSuite` class to ensure that all tests have 100% success.
         * `TestSuite` is located in `src.test.java.com.zipcodewilmington.danny_do_better_exercises`
 
