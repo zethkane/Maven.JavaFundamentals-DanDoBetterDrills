@@ -9,10 +9,10 @@ import org.junit.runners.Suite;
 @RunWith(Suite.class)
 
 @Suite.SuiteClasses({
-        HelloWorldTest.class,
-        PredicateUtilitiesTest.class,
-        PrimativeTypesTest.class,
-        StringUtilitiesTest.class,
+        TestHelloWorld.class,
+        TestPredicateUtilities.class,
+        TestPrimitiveTypes.class,
+        TestStringUtilities.class,
 })
 public class TestSuite {
 }

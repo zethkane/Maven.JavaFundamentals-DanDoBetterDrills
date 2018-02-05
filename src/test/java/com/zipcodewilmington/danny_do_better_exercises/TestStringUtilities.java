@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 /**
  * Created by dan on 6/14/17.
  */
-public class StringUtilitiesTest {
+public class TestStringUtilities {
 
     @Test
     public void concatenationStringTest(){

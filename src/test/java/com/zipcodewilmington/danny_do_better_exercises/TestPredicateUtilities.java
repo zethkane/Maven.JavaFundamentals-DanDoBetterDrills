@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 /**
  * Created by dan on 6/14/17.
  */
-public class PredicateUtilitiesTest {
+public class TestPredicateUtilities {
     private static volatile PredicateUtilities math = new PredicateUtilities();
 
     @Test

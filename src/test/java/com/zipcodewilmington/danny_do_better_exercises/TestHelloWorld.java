@@ -7,7 +7,7 @@ import static org.junit.Assert.assertEquals;
 /**
  * Created by leon on 2/1/18.
  */
-public class HelloWorldTest {
+public class TestHelloWorld {
     public static final HelloWorld helloWorld = new HelloWorld();
 
     @Test
