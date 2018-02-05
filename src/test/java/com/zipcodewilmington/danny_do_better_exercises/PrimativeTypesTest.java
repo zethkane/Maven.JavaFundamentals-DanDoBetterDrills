@@ -1,4 +1,4 @@
-package com.zipcodewilmington.danny_do_better;
+package com.zipcodewilmington.danny_do_better_exercises;
 
 import org.junit.Test;
 
@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
  * Created by dan on 6/14/17.
  */
 public class PrimativeTypesTest {
-    private PrimativeTypes primativeTypes = new PrimativeTypes();
+    private static volatile PrimitiveTypes primativeTypes = new PrimitiveTypes();
 
     @Test
     public void testAdditions() {

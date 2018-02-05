@@ -1,26 +1,17 @@
-package com.zipcodewilmington.danny_do_better;
+package com.zipcodewilmington.danny_do_better_exercises;
 
 /**
  * Created by dan on 6/14/17.
  */
-public class PrimativeTypes {
+public class PrimitiveTypes {
 
     /**
      * @param baseValue  starting value
      * @param difference value to add to starting value
      * @return sum of `baseValue` and `difference`
      */
-    public int add(int baseValue, int difference) {
-        return 0;
-    }
-
-    /**
-     * @param baseValue  starting value
-     * @param difference value to add to starting value
-     * @return sum of `baseValue` and `difference`
-     */
-    public long add(long baseValue, long difference) {
-        return 0;
+    public Integer add(int baseValue, int difference) {
+        return null;
     }
 
     /**
@@ -28,8 +19,8 @@ public class PrimativeTypes {
      * @param difference value to add to starting value
      * @return sum of `baseValue` and `difference`
      */
-    public short add(short baseValue, short difference) {
-        return 0;
+    public Long add(long baseValue, long difference) {
+        return null;
     }
 
     /**
@@ -37,8 +28,8 @@ public class PrimativeTypes {
      * @param difference value to add to starting value
      * @return sum of `baseValue` and `difference`
      */
-    public byte add(byte baseValue, byte difference) {
-        return 0;
+    public Short add(short baseValue, short difference) {
+        return null;
     }
 
     /**
@@ -46,8 +37,8 @@ public class PrimativeTypes {
      * @param difference value to add to starting value
      * @return sum of `baseValue` and `difference`
      */
-    public float add(float baseValue, float difference) {
-        return 0;
+    public Byte add(byte baseValue, byte difference) {
+        return null;
     }
 
     /**
@@ -55,8 +46,17 @@ public class PrimativeTypes {
      * @param difference value to add to starting value
      * @return sum of `baseValue` and `difference`
      */
-    public double add(double baseValue, double difference) {
-        return 0;
+    public Float add(float baseValue, float difference) {
+        return null;
+    }
+
+    /**
+     * @param baseValue  starting value
+     * @param difference value to add to starting value
+     * @return sum of `baseValue` and `difference`
+     */
+    public Double add(double baseValue, double difference) {
+        return null;
     }
 
     /**
@@ -64,8 +64,8 @@ public class PrimativeTypes {
      * @param difference value to subtract from starting value
      * @return difference between `baseValue` and `difference`
      */
-    public int subtract(int baseValue, int difference) {
-        return 0;
+    public Integer subtract(int baseValue, int difference) {
+        return null;
     }
 
     /**
@@ -73,8 +73,8 @@ public class PrimativeTypes {
      * @param difference value to subtract from starting value
      * @return difference between `baseValue` and `difference`
      */
-    public long subtract(long baseValue, long difference) {
-        return 0;
+    public Long subtract(long baseValue, long difference) {
+        return null;
     }
 
     /**
@@ -82,8 +82,8 @@ public class PrimativeTypes {
      * @param difference value to subtract from starting value
      * @return difference between `baseValue` and `difference`
      */
-    public short subtract(short baseValue, short difference) {
-        return 0;
+    public Short subtract(short baseValue, short difference) {
+        return null;
     }
 
     /**
@@ -91,8 +91,8 @@ public class PrimativeTypes {
      * @param difference value to subtract from starting value
      * @return difference between `baseValue` and `difference`
      */
-    public byte subtract(byte baseValue, byte difference) {
-        return 0;
+    public Byte subtract(byte baseValue, byte difference) {
+        return null;
     }
 
     /**
@@ -100,8 +100,8 @@ public class PrimativeTypes {
      * @param difference value to subtract from starting value
      * @return difference between `baseValue` and `difference`
      */
-    public float subtract(float baseValue, float difference) {
-        return 0;
+    public Float subtract(float baseValue, float difference) {
+        return null;
     }
 
     /**
@@ -109,8 +109,8 @@ public class PrimativeTypes {
      * @param difference value to subtract from starting value
      * @return difference between `baseValue` and `difference`
      */
-    public double subtract(double baseValue, double difference) {
-        return 0;
+    public Double subtract(double baseValue, double difference) {
+        return null;
     }
 
 
@@ -119,8 +119,8 @@ public class PrimativeTypes {
      * @param divisor value to divide by
      * @return division of `dividend` by `divisor
      */
-    public int divide(int dividend, int divisor) {
-        return 0;
+    public Integer divide(int dividend, int divisor) {
+        return null;
     }
 
     /**
@@ -128,8 +128,8 @@ public class PrimativeTypes {
      * @param divisor value to divide by
      * @return division of `dividend` by `divisor
      */
-    public long divide(long dividend, long divisor) {
-        return 0;
+    public Long divide(long dividend, long divisor) {
+        return null;
     }
 
     /**
@@ -137,8 +137,8 @@ public class PrimativeTypes {
      * @param divisor value to divide by
      * @return division of `dividend` by `divisor
      */
-    public short divide(short dividend, short divisor) {
-        return 0;
+    public Short divide(short dividend, short divisor) {
+        return null;
     }
 
     /**
@@ -146,8 +146,8 @@ public class PrimativeTypes {
      * @param divisor value to divide by
      * @return division of `dividend` by `divisor
      */
-    public byte divide(byte dividend, byte divisor) {
-        return 0;
+    public Byte divide(byte dividend, byte divisor) {
+        return null;
     }
 
     /**
@@ -155,8 +155,8 @@ public class PrimativeTypes {
      * @param divisor value to divide by
      * @return division of `dividend` by `divisor
      */
-    public float divide(float dividend, float divisor) {
-        return 0;
+    public Float divide(float dividend, float divisor) {
+        return null;
     }
 
     /**
@@ -164,8 +164,8 @@ public class PrimativeTypes {
      * @param divisor value to divide by
      * @return division of `dividend` by `divisor
      */
-    public double divide(double dividend, double divisor) {
-        return 0;
+    public Double divide(double dividend, double divisor) {
+        return null;
     }
 
 
@@ -174,8 +174,8 @@ public class PrimativeTypes {
      * @param multiplier value to multiply by
      * @return product of `multiplicand` by `multiplier`
      */
-    public int multiply(int multiplicand, int multiplier) {
-        return 0;
+    public Integer multiply(int multiplicand, int multiplier) {
+        return null;
     }
 
     /**
@@ -183,8 +183,8 @@ public class PrimativeTypes {
      * @param multiplier value to multiply by
      * @return product of `multiplicand` by `multiplier`
      */
-    public long multiply(long multiplicand, long multiplier) {
-        return 0;
+    public Long multiply(long multiplicand, long multiplier) {
+        return null;
     }
 
     /**
@@ -192,25 +192,16 @@ public class PrimativeTypes {
      * @param multiplier value to multiply by
      * @return product of `multiplicand` by `multiplier`
      */
-    public short multiply(short multiplicand, short multiplier) {
-        return 0;
+    public Short multiply(short multiplicand, short multiplier) {
+        return null;
     }
     /**
      * @param multiplicand value to be multiplied
      * @param multiplier value to multiply by
      * @return product of `multiplicand` by `multiplier`
      */
-    public byte multiply(byte multiplicand, byte multiplier) {
-        return 0;
-    }
-
-    /**
-     * @param multiplicand value to be multiplied
-     * @param multiplier value to multiply by
-     * @return product of `multiplicand` by `multiplier`
-     */
-    public float multiply(float multiplicand, float multiplier) {
-        return 0;
+    public Byte multiply(byte multiplicand, byte multiplier) {
+        return null;
     }
 
     /**
@@ -218,23 +209,32 @@ public class PrimativeTypes {
      * @param multiplier value to multiply by
      * @return product of `multiplicand` by `multiplier`
      */
-    public double multiply(double multiplicand, double multiplier) {
-        return 0;
+    public Float multiply(float multiplicand, float multiplier) {
+        return null;
+    }
+
+    /**
+     * @param multiplicand value to be multiplied
+     * @param multiplier value to multiply by
+     * @return product of `multiplicand` by `multiplier`
+     */
+    public Double multiply(double multiplicand, double multiplier) {
+        return null;
     }
 
 
     /**
       * @return true
      */
-    public boolean returnTrue() {
-        return false;
+    public Boolean returnTrue() {
+        return null;
     }
 
     /**
      * @return false
      */
-    public boolean returnFalse() {
-        return true;
+    public Boolean returnFalse() {
+        return null;
     }
 
 }

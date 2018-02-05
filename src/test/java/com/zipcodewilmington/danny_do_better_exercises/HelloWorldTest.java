@@ -1,4 +1,4 @@
-package com.zipcodewilmington.danny_do_better;
+package com.zipcodewilmington.danny_do_better_exercises;
 
 import org.junit.Test;
 
