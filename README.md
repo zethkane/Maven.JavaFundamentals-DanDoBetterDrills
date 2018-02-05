@@ -23,9 +23,8 @@
         * `TestSuite` `src.test.java.com.zipcodewilmington.danny_do_better_exercixses`
 
 ## Predicate Utilities
-* Ensure each of the test cases passes successfully in the class [TestPredicateUtilities](./src/test/java/com/zipcodewilmington/danny_do_better_exercises/TestPredicateUtilities.java) by completing each of the method stubs in the class [PredicateUtilities](./src/main/java/com/zipcodewilmington/danny_do_better_exercises/PredicateUtilities.java).
 * A _predicate_ is a clause which states something about a subject. (_e.g., **is assigning**_ in _"Leon **is assigning** homework"_)
-
+* Ensure each of the test cases passes successfully in the class [TestPredicateUtilities](./src/test/java/com/zipcodewilmington/danny_do_better_exercises/TestPredicateUtilities.java) by completing each of the method stubs in the class [PredicateUtilities](./src/main/java/com/zipcodewilmington/danny_do_better_exercises/PredicateUtilities.java).
 * Method Stubs to be completed
 	* `boolean isGreaterThan(int x, int y)`
 	* `boolean isLessThan(int x, int y)`
