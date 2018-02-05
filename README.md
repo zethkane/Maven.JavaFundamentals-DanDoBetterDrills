@@ -1,4 +1,13 @@
 # Java Fundamentals
+* **Objective:**
+    * To complete the method stubs in each of the provided classes
+        * `MathUtilities`
+    	* `PredicateUtilities`
+    	* `StringUtilities`
+
+* **Purpose:**
+    * To hyper-win
+    
 * Classes to be completed
 	* `MathUtilities`
 	* `PredicateUtilities`
