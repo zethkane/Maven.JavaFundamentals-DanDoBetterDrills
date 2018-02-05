@@ -18,9 +18,9 @@
 	
 * **Instructions**
     * Complete each of the method stubs in the `main` classes provided.
-        * `main` classes are located in `src.main.java.com.zipcodewilmington.danny_do_better_exercixses`
+        * `main` classes are located in `src.main.java.com.zipcodewilmington.danny_do_better_exercises`
     * Upon completion, open and run the `TestSuite` class to ensure that all tests have 100% success.
-        * `TestSuite` is located in `src.test.java.com.zipcodewilmington.danny_do_better_exercixses`
+        * `TestSuite` is located in `src.test.java.com.zipcodewilmington.danny_do_better_exercises`
 
 ## Predicate Utilities
 * A _predicate_ is a clause which states something about a subject. (_e.g., **is assigning**_ in _"Leon **is assigning** homework"_)
