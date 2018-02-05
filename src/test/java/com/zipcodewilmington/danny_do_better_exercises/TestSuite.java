@@ -9,7 +9,6 @@ import org.junit.runners.Suite;
 @RunWith(Suite.class)
 
 @Suite.SuiteClasses({
-        TestHelloWorld.class,
         TestPredicateUtilities.class,
         TestMathUtilities.class,
         TestStringUtilities.class,

@@ -11,10 +11,16 @@
         * [method signatures and return statements](http://www.homeandlearn.co.uk/java/java_methods.html)
         * [String operations](https://www.tutorialspoint.com/java/java_strings.htm)
     
-* Classes to be completed
+* **Classes to be completed:**
 	* `MathUtilities`
 	* `PredicateUtilities`
 	* `StringUtilities`
+	
+* **Instructions**
+    * Complete each of the method stubs in the `main` classes provided.
+        * `main` classes are located in `src.main.java.com.zipcodewilmington.danny_do_better_exercixses`
+    * Upon completion, open and run the `TestSuite` class to ensure that all tests have 100% success.
+        * `TestSuite` `src.test.java.com.zipcodewilmington.danny_do_better_exercixses`
 
 ## Predicate Utilities
 * Ensure each of the test cases passes successfully in the class [TestPredicateUtilities](./src/test/java/com/zipcodewilmington/danny_do_better_exercises/TestPredicateUtilities.java) by completing each of the method stubs in the class [PredicateUtilities](./src/main/java/com/zipcodewilmington/danny_do_better_exercises/PredicateUtilities.java).
