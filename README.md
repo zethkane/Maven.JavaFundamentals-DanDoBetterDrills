@@ -6,7 +6,10 @@
     	* `StringUtilities`
 
 * **Purpose:**
-    * To hyper-win
+    * To establish familiarity with
+        * [primitive data-types](http://cs.fit.edu/~ryan/java/language/java-data.html)
+        * [method signatures and return statements](http://www.homeandlearn.co.uk/java/java_methods.html)
+        * [String operations](https://www.tutorialspoint.com/java/java_strings.htm)
     
 * Classes to be completed
 	* `MathUtilities`
