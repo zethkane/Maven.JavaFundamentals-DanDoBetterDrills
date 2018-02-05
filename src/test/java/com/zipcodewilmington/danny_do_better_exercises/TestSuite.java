@@ -11,7 +11,7 @@ import org.junit.runners.Suite;
 @Suite.SuiteClasses({
         TestHelloWorld.class,
         TestPredicateUtilities.class,
-        TestPrimitiveTypes.class,
+        TestMathUtilities.class,
         TestStringUtilities.class,
 })
 public class TestSuite {

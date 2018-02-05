@@ -8,6 +8,18 @@ import static org.junit.Assert.*;
  * Created by dan on 6/14/17.
  */
 public class TestStringUtilities {
+    @Test
+    public void getHelloWorldTest() {
+        // : Given
+        String expected = "Hello World";
+
+        // : When
+        String actual = StringUtilities.getHelloWorld();
+
+        // : Then
+        assertEquals(expected, actual);
+
+    }
 
     @Test
     public void concatenationStringTest(){

@@ -6,8 +6,8 @@ import static org.junit.Assert.*;
 /**
  * Created by dan on 6/14/17.
  */
-public class TestPrimitiveTypes {
-    private static volatile PrimitiveTypes primativeTypes = new PrimitiveTypes();
+public class TestMathUtilities {
+    private static volatile MathUtilities primativeTypes = new MathUtilities();
 
     @Test
     public void testAdditions() {

@@ -3,7 +3,7 @@ package com.zipcodewilmington.danny_do_better_exercises;
 /**
  * Created by dan on 6/14/17.
  */
-public class PrimitiveTypes {
+public class MathUtilities {
 
     /**
      * @param baseValue  starting value
