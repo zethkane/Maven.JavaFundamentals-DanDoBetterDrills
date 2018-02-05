@@ -1,11 +1,11 @@
 # Java Fundamentals
 * Classes to be completed
-	* MathUtilities
-	* PredicateUtilities
-	* StringUtilities
+	* `MathUtilities`
+	* `PredicateUtilities`
+	* `StringUtilities`
 
 ## Predicate Utilities
-* Ensure that each of the test cases in the class [TestPredicateUtilities](./src/test/java/com/zipcodewilmington/danny_do_better_exercises/TestPredicateUtilities.java) by completing each of the method stubs in the class [PredicateUtilities](./src/main/java/com/zipcodewilmington/danny_do_better_exercises/PredicateUtilities.java).
+* Ensure each of the test cases passes successfully in the class [TestPredicateUtilities](./src/test/java/com/zipcodewilmington/danny_do_better_exercises/TestPredicateUtilities.java) by completing each of the method stubs in the class [PredicateUtilities](./src/main/java/com/zipcodewilmington/danny_do_better_exercises/PredicateUtilities.java).
 * A _predicate_ is a clause which states something about a subject. (_e.g., **is assigning**_ in _"Leon **is assigning** homework"_)
 
 * Method Stubs to be completed
@@ -16,7 +16,7 @@
 
 
 ## Math Utilities
-* Ensure each of the test cases in the class [TestMathUtilities](./src/test/java/com/zipcodewilmington/danny_do_better_exercises/TestMathUtilities.java) by completing each of the method stubs in the class [MathUtilities](./src/main/java/com/zipcodewilmington/danny_do_better_exercises/MathUtilities.java).
+* Ensure each of the test cases passes successfully in the class [TestMathUtilities](./src/test/java/com/zipcodewilmington/danny_do_better_exercises/TestMathUtilities.java) by completing each of the method stubs in the class [MathUtilities](./src/main/java/com/zipcodewilmington/danny_do_better_exercises/MathUtilities.java).
 * Method Stubs to be completed	
 	* `Integer add(int, int)`
 	* `Long add(long, long)`
@@ -47,7 +47,7 @@
 
 
 ## String Utilities
-* Ensure each of the test cases in the class [TestStringUtilities](./src/test/java/com/zipcodewilmington/danny_do_better_exercises/TestStringUtilities.java) by completing each of the method stubs in the class [StringUtilities](./src/main/java/com/zipcodewilmington/danny_do_better_exercises/StringUtilities.java).
+* Ensure each of the test cases passes successfully in the class [TestStringUtilities](./src/test/java/com/zipcodewilmington/danny_do_better_exercises/TestStringUtilities.java) by completing each of the method stubs in the class [StringUtilities](./src/main/java/com/zipcodewilmington/danny_do_better_exercises/StringUtilities.java).
 * Method Stubs to be completed
 	* `String concatenation(String, String)`
 	* `String concatenation(int, String)`
