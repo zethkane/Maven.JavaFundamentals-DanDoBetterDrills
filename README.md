@@ -87,3 +87,7 @@
 	* `String getFirstWord(String)`
 	* `String getSecondWord(String)`
 	* `String reverseTheTwo(String)`
+	
+	
+## Whats next?
+* The next lab, `Alice and Bob`, can be found [here](https://github.com/Zipcoder/ZCW-MicroLabs-OOP-AliceAndBob)
