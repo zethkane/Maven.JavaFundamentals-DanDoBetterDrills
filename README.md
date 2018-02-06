@@ -90,4 +90,4 @@
 	
 	
 ## Whats next?
-* The next lab, `Alice and Bob`, can be found [here](https://github.com/Zipcoder/ZCW-MicroLabs-OOP-AliceAndBob)
+* The next lab can be found [here](https://github.com/Zipcoder/ZCW-MicroLabs-OOP-AliceAndBob)
