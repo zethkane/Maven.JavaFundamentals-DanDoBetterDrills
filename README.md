@@ -86,7 +86,7 @@
 	* `Character getMiddleCharacter(String)`
 	* `String getFirstWord(String)`
 	* `String getSecondWord(String)`
-	* `String reverseTheTwo(String)`
+	* `String reverse(String)`
 	
 	
 ## Whats next?
