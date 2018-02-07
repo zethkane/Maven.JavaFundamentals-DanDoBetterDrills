@@ -109,13 +109,13 @@ public class TestStringUtilities {
     public void getTheMiddleChar1(){
         // : Given
         String input = "Zipcode";
-        char expected = 'c';
+        Character expected = 'c';
 
         // : When
-        char actual = StringUtilities.getMiddleCharacter(input);
+        Character actual = StringUtilities.getMiddleCharacter(input);
 
         // : Then
-        Assert.assertEquals(expected, actual);
+        Assert.assertEquals(expected.toString(), actual.toString());
     }
 
 
