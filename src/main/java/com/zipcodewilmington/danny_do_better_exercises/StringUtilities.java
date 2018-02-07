@@ -82,7 +82,7 @@ public class StringUtilities {
      * @param stringToReverse
      * @return an identical string with characters in reverse order.
      */
-    public static String reverseTheTwo(String stringToReverse){
+    public static String reverse(String stringToReverse){
         return null;
     }
 }

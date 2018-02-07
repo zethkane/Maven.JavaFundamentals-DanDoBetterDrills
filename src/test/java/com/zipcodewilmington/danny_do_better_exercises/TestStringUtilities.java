@@ -168,7 +168,7 @@ public class TestStringUtilities {
 
 
         // : When
-        String actual = StringUtilities.reverseTheTwo(input);
+        String actual = StringUtilities.reverse(input);
 
         // : Then
         assertEquals(expected, actual);

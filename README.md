@@ -82,8 +82,12 @@
 	* `String concatenation(int, String)`
 	* `String getPrefix(String)`
 	* `String getSuffix(String)`
-	* `String compareTwoStrings(String)`
+	* `Boolean compareTwoStrings(String)`
 	* `Character getMiddleCharacter(String)`
 	* `String getFirstWord(String)`
 	* `String getSecondWord(String)`
 	* `String reverseTheTwo(String)`
+	
+	
+## Whats next?
+* The next lab can be found [here](https://github.com/Zipcoder/ZCW-MicroLabs-OOP-AliceAndBob).
