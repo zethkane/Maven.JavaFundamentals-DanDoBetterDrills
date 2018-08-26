@@ -39,4 +39,20 @@ public class PredicateUtilities {
     public Boolean isLessThanOrEqualTo(int x, int y) {
         return null;
     }
+
+
+    /**
+     * @return true
+     */
+    public Boolean returnTrue() {
+        return null;
+    }
+
+    /**
+     * @return false
+     */
+    public Boolean returnFalse() {
+        return null;
+    }
+
 }

@@ -221,20 +221,4 @@ public class MathUtilities {
     public Double multiply(double multiplicand, double multiplier) {
         return null;
     }
-
-
-    /**
-      * @return true
-     */
-    public Boolean returnTrue() {
-        return null;
-    }
-
-    /**
-     * @return false
-     */
-    public Boolean returnFalse() {
-        return null;
-    }
-
 }

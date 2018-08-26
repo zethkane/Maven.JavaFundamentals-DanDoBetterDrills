@@ -8,7 +8,23 @@ import static org.junit.Assert.*;
  * Created by dan on 6/14/17.
  */
 public class TestPredicateUtilities {
-    private static volatile PredicateUtilities math = new PredicateUtilities();
+    private static volatile PredicateUtilities predicateUtilities = new PredicateUtilities();
+
+    @Test
+    public void testReturnTrue(){
+        // : Given
+        // : When
+        // : Then
+        assertTrue(predicateUtilities.returnTrue());
+    }
+
+    @Test
+    public void testReturnFalse(){
+        // : Given
+        // : When
+        // : Then
+        assertFalse(predicateUtilities.returnFalse());
+    }
 
     @Test
     public void testGreaterThanTrue() {
@@ -18,7 +34,7 @@ public class TestPredicateUtilities {
 
 
         // : When
-        boolean outcome = math.isGreaterThan(greaterValue, lesserValue);
+        boolean outcome = predicateUtilities.isGreaterThan(greaterValue, lesserValue);
 
         // : Then
         assertTrue(outcome);
@@ -32,7 +48,7 @@ public class TestPredicateUtilities {
         int lesserValue = 350;
 
         // : When
-        boolean outcome = math.isGreaterThan(greaterValue, lesserValue);
+        boolean outcome = predicateUtilities.isGreaterThan(greaterValue, lesserValue);
 
         // : Then
         assertFalse(outcome);
@@ -46,7 +62,7 @@ public class TestPredicateUtilities {
         int lesserValue = 350;
 
         // : When
-        boolean outcome = math.isLessThan(greaterValue, lesserValue);
+        boolean outcome = predicateUtilities.isLessThan(greaterValue, lesserValue);
 
         // : Then
         assertFalse(outcome);
@@ -54,13 +70,13 @@ public class TestPredicateUtilities {
 
 
     @Test
-    public void testLessThan1() {
+    public void testLessThanFalse() {
         // : Given
         int greaterValue = 450;
         int lesserValue = 350;
 
         // : When
-        boolean outcome = math.isLessThan(greaterValue, lesserValue);
+        boolean outcome = predicateUtilities.isLessThan(greaterValue, lesserValue);
 
         // : Then
         assertFalse(outcome);
@@ -68,39 +84,39 @@ public class TestPredicateUtilities {
 
 
     @Test
-    public void testLessOrEqual1() {
+    public void testLessOrEqualTrue() {
         // : Given
         int greaterValue = 3;
         int lesserValue = 3;
 
         // : When
-        boolean outcome = math.isLessThanOrEqualTo(greaterValue, lesserValue);
+        boolean outcome = predicateUtilities.isLessThanOrEqualTo(greaterValue, lesserValue);
 
         // : Then
         assertTrue(outcome);
     }
 
     @Test
-    public void testLessOrEqual2() {
+    public void testLessOrEqualFalse() {
         // : Given
         int greaterValue = 3;
         int lesserValue = 6;
 
         // : When
-        boolean outcome = math.isLessThanOrEqualTo(greaterValue, lesserValue);
+        boolean outcome = predicateUtilities.isLessThanOrEqualTo(greaterValue, lesserValue);
 
         // : Then
-        assertTrue(outcome);
+        assertFalse(outcome);
     }
 
     @Test
-    public void testGreaterOrEqual1() {
+    public void testGreaterOrEqualTrue() {
         // : Given
         int greaterValue = 4;
         int lesserValue = 4;
 
         // : When
-        boolean outcome = math.isGreaterThanOrEqualTo(greaterValue, lesserValue);
+        boolean outcome = predicateUtilities.isGreaterThanOrEqualTo(greaterValue, lesserValue);
 
         // : ThenP
         assertTrue(outcome);
@@ -108,13 +124,13 @@ public class TestPredicateUtilities {
 
 
     @Test
-    public void testGreaterOrEqual2() {
+    public void testGreaterOrEqualFalse() {
         // : Given
         int greaterValue = 8;
         int lesserValue = 15;
 
         // : When
-        boolean outcome = math.isGreaterThanOrEqualTo(greaterValue, lesserValue);
+        boolean outcome = predicateUtilities.isGreaterThanOrEqualTo(greaterValue, lesserValue);
 
         // : Then
         assertFalse(outcome);

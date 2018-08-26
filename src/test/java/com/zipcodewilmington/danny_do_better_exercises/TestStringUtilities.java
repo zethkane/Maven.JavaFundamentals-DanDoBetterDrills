@@ -79,7 +79,7 @@ public class TestStringUtilities {
     }
 
     @Test
-    public void compareToTestEquals(){
+    public void testCompareToEquals(){
         // : Given
         String inputValue = "Zipcode";
         String comparableValue = "Zipcode";
@@ -93,7 +93,7 @@ public class TestStringUtilities {
 
 
     @Test
-    public void compareToTestNotEquals(){
+    public void testCompareToNotEquals(){
         // : Given
         String inputValue = "Zipcode";
         String comparableValue = "Zipcodee";
@@ -106,7 +106,7 @@ public class TestStringUtilities {
     }
 
     @Test
-    public void getTheMiddleChar1(){
+    public void getTheMiddleCharOfZipcode(){
         // : Given
         String input = "Zipcode";
         Character expected = 'c';
@@ -120,7 +120,7 @@ public class TestStringUtilities {
 
 
     @Test
-    public void getTheMiddleChar2(){
+    public void getTheMiddleCharOfZipcoder(){
         // : Given
         String input = "Zipcoder";
         Character expected = 'c';
