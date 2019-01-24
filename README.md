@@ -87,7 +87,3 @@
 	* `String getFirstWord(String)`
 	* `String getSecondWord(String)`
 	* `String reverse(String)`
-	
-	
-## Whats next?
-* The next lab can be found [here](https://github.com/Zipcoder/ZCW-MicroLabs-OOP-AliceAndBob).
